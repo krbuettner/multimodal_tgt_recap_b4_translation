@@ -2,4 +2,4 @@
 
 https://aclanthology.org/2025.ijcnlp-long.108/ 
 
-Currently, code is provided to illustrate the technique of rewriting English captions to reflect another language's perceptual characteristics. This is done with VLLM and LLaMa 3.2. The output of this code can be translated to a target language for use in vision-language training. 
+Currently, code is provided to illustrate the technique of rewriting English captions to reflect another language's perceptual characteristics. This is done with vLLM and LLaMA 3.2 using the English COCO and Japanese STAIR datasets. The output captions from this code can be translated to a target language for use in vision-language training. 
