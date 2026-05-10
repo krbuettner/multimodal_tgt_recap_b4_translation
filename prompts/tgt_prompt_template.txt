@@ -1,0 +1,20 @@
+Task Description: For an input image, image caption, and reference input-output caption(s) for similar image(s), rewrite the image caption with similar changes to the style, level of detail, and object term ones made for similar objects in the reference examples. Only perform changes that are correct and semantically relevant to the given input image. After "Output: ", always output a <final> tag, followed by a rewritten caption, then </final>. Never any other text or explanation. One task demo for formatting and change instruction is provided. 
+
+Task Demo:
+
+Reference example(s)
+Input: A catcher catching a ball that has just gone by the hitter.
+Output: The batter in the orange uniform just missed the ball. 
+
+Inference
+Input: A young boy holding a baseball bat during a baseball game.
+Output: <final> The batter in the grey uniform is waiting for a ball during a game. </final>
+
+Now perform the task exactly as above:
+
+Reference example(s)
+{reference_examples}
+
+Inference
+Input: {input} 
+Output: 
